@@ -4,7 +4,8 @@
   "description": "Package to communicate with an arduino board to send and receive information from various neuropsychological hardware",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon dev/server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/hejtmy/neuroduino-js/issues"
   },
-  "homepage": "https://github.com/hejtmy/neuroduino-js#readme"
+  "homepage": "https://github.com/hejtmy/neuroduino-js#readme",
+  "devDependencies": {
+    "express": "^4.18.2"
+  }
 }

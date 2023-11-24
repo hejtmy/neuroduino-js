@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Neuroduino Test</title>
+</head>
+<body>
+    <button id="connect">Connect</button>
+    <button id="blink">Blink</button>
+
+    <script>
+        document.getElementById('connect').addEventListener('click', () => {
+            fetch('/connect')
+                .then(response => response.json())
+                .then(data => console.log(data));
+        });
+
+        document.getElementById('blink').addEventListener('click', () => {
+            fetch('/blink')
+                .then(response => response.json())
+                .then(data => console.log(data));
+        });
+    </script>
+</body>
+</html>
