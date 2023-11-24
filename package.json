@@ -1,0 +1,24 @@
+{
+  "name": "neuroduino",
+  "version": "0.1.0",
+  "description": "Package to communicate with an arduino board to send and receive information from various neuropsychological hardware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hejtmy/neuroduino-js.git"
+  },
+  "keywords": [
+    "neuroscience",
+    "arduino",
+    "experiment"
+  ],
+  "author": "Lukáš Hejtmy Hejtmánek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hejtmy/neuroduino-js/issues"
+  },
+  "homepage": "https://github.com/hejtmy/neuroduino-js#readme"
+}
